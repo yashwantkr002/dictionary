@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #ac9cff;
+}
+.container{
+
+    background-color:#ffffff ;
+    width: 90vmin;
+    position: absolute;
+    transform:translate( -50% ,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.serch_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#input{
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom:3px solid #ac9cff;
+    padding: 5px;
+    font-size: 17px;
+
+}
+#btn{
+    width: 25%;
+    padding: 10px 0px;
+    background-color: #ac9cff;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result .word{
+    display: flex;
+    justify-content:space-between;
+
+}
+.result{
+    padding: 33px;
+   
+  
+}
+.word h3{
+    font-size: 33px;
+    color: rgba(128, 0, 128, 0.616);
+}
+.word p{
+    cursor: pointer;
+}
+.result .detail{
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word_meaning{
+    color: #575a7b;
+
+}
+
+.word_example{
+
+    color: #575a7b;
+    font-style: italic;
+    border-left: 5px solid #aeacff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.err{
+    color: red;
+
+
+    
+
+}
+.audio{
+    position: absolute;
+    top:35%;
+    right:15px;
+    display: none;
+  
+}
+
+.audio img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.dis{
+    display: block;
+}
+.active{
+    width: auto;
+    height: 10px;
+    float: right;
+    margin-right: 23px;
+    margin-top: 10px;
+    
+}
+.active a{
+    color: white;
+}

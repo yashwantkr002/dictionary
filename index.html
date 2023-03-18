@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>dictionaries</title>
+</head>
+<body>
+    <div class="active"><a href="https://cors-anywhere.herokuapp.com"> To activate click me</a></div>
+    <div class="container">
+
+        <div class="serch_box">
+            <input id="input"type="text" placeholder="type hear">
+            <input id="btn"type="button"value="search">
+
+        </div>
+        <diiv class="result" id="result">
+            <div class="err" id="err"></div>
+            <div class="word" id="word">
+
+            </div>
+            <div class="detail" id="detail">
+                
+            </div>
+            <p  id="meaning"class="word_meaning"></p>
+            <p id="exmple" class="word_example">
+             
+            </p>
+            <div class="audio" id="audio">
+                <audio id="play"src=" "></audio>
+                <img src="image/sound.png" alt="sound"onclick="start()">
+            </div>
+        
+    </div>
+
+
+
+    <script src="js/script.js"crossorigin="anonymous"></script>
+</body>
+</html>
